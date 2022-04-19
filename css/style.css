@@ -1,0 +1,164 @@
+
+
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-color: slategray;
+  background-image: url('../img/space.png');
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.errorMsg{
+  color: red;
+  font-size: 3rem;
+  text-align: center;
+  margin: 30px;
+}
+
+.hidden{
+  display: none !important;
+  visibility: hidden;
+}
+
+.images{
+  display: flex;
+}
+
+
+.hint{
+  font-size: 3rem;
+  color: white;
+}
+
+h1{
+  text-align: center;
+  margin: 20px;
+  padding: 10px 0;
+  font-size: 3.5rem;
+  background: -webkit-linear-gradient(rgb(0, 45, 193), rgb(26, 236, 201), rgb(16, 26, 221));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mainTitle{
+  box-shadow: 0px 0px 3px 3px rgba(227, 227, 227, 0.7);
+  background-color: rgb(14, 20, 70);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  z-index: 2;
+  color: white;
+}
+
+
+h2{
+  font-size: 3rem;
+}
+h4{
+  font-size: 2rem;
+  text-align: center;
+  color: orange;
+}
+h3{
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  height: 300px;
+}
+
+li{
+  font-size: 2.5rem;
+  color: white;
+  margin: 10px;
+  list-style: '🌍 ';
+}
+
+
+
+.answer{
+  display: flex;
+  justify-content: space-between;
+}
+input{
+  font-size: 2rem;
+  margin: 20px auto;
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 70%;
+  align-self: flex-end;
+}
+
+
+.details{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fullDetails{
+  background-color: rgba(167, 144, 80, 0.473);
+  color: white;
+  width: 500px;
+}
+
+.details span{
+  font-size: 1.5rem;
+}
+
+button{
+  background-color: yellowgreen;
+  font-size: 2rem;
+  margin: 20px auto;
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 200px;
+  align-self: flex-end;
+}
+
+
+
